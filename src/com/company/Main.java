@@ -8,5 +8,8 @@ public class Main {
         Dog dog = new Dog();
         cat.makeSound();
         dog.makeSound();
+
+        cat.eat("fish");
+        dog.eat("fish");
     }
 }
